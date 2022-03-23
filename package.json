@@ -1,0 +1,17 @@
+{
+  "name": "makeusefulpairs",
+  "version": "1.0.0",
+  "description": "Make unique round robin rounds given people's preferences of who to be paired with",
+  "main": "./bin/index.js",
+  "bin": {
+    "pairup": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "yarn test"
+  },
+  "author": "Madelyn Freed",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.4.0"
+  }
+}
